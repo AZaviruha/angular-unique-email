@@ -49,4 +49,4 @@ If your form and field both are named, you can access the validation result to s
 Server
 ------
 
-Directive expects json with ```json { success: true|false } ```.
+Directive expects json with ```js  { success: true || false } ```.
