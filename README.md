@@ -9,8 +9,7 @@ Usage
 **Simple Example:**
 ```html
 <form name="registerForm">
-  <input type="email" name="email" ng-model="user.email" required
-         data-unique-email="/account/:email/free"  msh-unique-email-timeout="1000">
+  <input type="email" name="email" ng-model="user.email" required data-unique-email="/account/:email/free">
 
   ...
 
@@ -46,3 +45,8 @@ If your form and field both are named, you can access the validation result to s
 </form>
   
 ```
+
+Server
+------
+
+Directive expects json { success: true|false };
